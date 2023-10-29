@@ -7,7 +7,6 @@ package Nomor2;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
-
 /**
  *
  * @author MY ASUS

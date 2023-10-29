@@ -6,15 +6,15 @@ package Nomor3;
 
 public class Main {
     public static void main(String[] args) {
-        Nomor3 no3 = new Nomor3();
-        Nomor3.Persegi persegi = no3.new Persegi();
+        BangunDatar bd = new BangunDatar();
+        BangunDatar.Persegi persegi = bd.new Persegi();
         persegi.setPanjang_sisi(5);
         persegi.hitungLuas();
         persegi.hitungKeliling();
         persegi.printState();
         System.out.println("");
         
-        Nomor3.PersegiPanjang pp = no3.new PersegiPanjang();
+        BangunDatar.PersegiPanjang pp = bd.new PersegiPanjang();
         pp.setLebar(10);
         pp.setPanjang(5);
         pp.Hitungluas();
