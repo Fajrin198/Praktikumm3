@@ -26,4 +26,14 @@ public class Perusahaan {
             System.out.println("Nama Karyawan = "+namaKaryawan);
         }
     }
+    public class Meneger extends Perusahaan{
+        String namaMeneger;
+        
+        public void printState(){
+            System.out.println("Nama Perusahaan = "+namaPerusahaan);
+            System.out.println("Nama Karyawan = "+namaMeneger);
+        }
+    }
+    
+    
 }

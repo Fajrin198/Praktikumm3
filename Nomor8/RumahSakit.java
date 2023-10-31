@@ -28,7 +28,19 @@ public class RumahSakit {
         public String toString() {
             return "Dokter{" + "nama=" + nama + ", spesialis=" + spesialis + '}';
         }
-        
-        
+  
+    }
+    public class Perawat extends RumahSakit{
+        String nama;
+
+        public Perawat(String nama) {
+            this.nama = nama;
+        }
+
+        @Override
+        public String toString() {
+            return "Dokter{" + "nama=" + nama + '}';
+        }
+  
     }
 }

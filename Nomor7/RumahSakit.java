@@ -4,10 +4,6 @@
  */
 package Nomor7;
 
-/**
- *
- * @author MY ASUS
- */
 public class RumahSakit {
     private String namaRS;
 
@@ -27,8 +23,9 @@ public class RumahSakit {
         @Override
         public String toString() {
             return "Dokter{" + "nama=" + nama + ", spesialis=" + spesialis + '}';
-        }
-        
+        }   
+    }
+    public class Perawat extends RumahSakit{
         
     }
 }
