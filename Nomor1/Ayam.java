@@ -14,11 +14,11 @@ public class Ayam {
     double berat_badan = 10.3;
     int usia = 4;
     
-    void berkokok(){
+    public void berkokok(){
         System.out.println("Ayam itu berkokok");
     }
     
-    void tampilkanDataAyam(){
+    public void tampilkanDataAyam(){
         System.out.println("Jenis Ras = "+jenis_ras);
         System.out.println("Warna Bulu = "+warna_bulu);
         System.out.println("Berat_badan = "+berat_badan+"kg");

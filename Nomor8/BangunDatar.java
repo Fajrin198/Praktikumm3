@@ -4,24 +4,22 @@
  */
 package Nomor8;
 
-/**
- *
- * @author MY ASUS
- */
 public class BangunDatar {
-    private double panjangSisi;
+    public double panjangSisi;
     public void setPanjangSisi(double panjangSisi) {
         this.panjangSisi = panjangSisi;
     }
     
-    public class Persegi extends BangunDatar{
+}
+
+    class Persegi extends BangunDatar{
         public void hitungLuas(){
             double luas = panjangSisi*panjangSisi;
             System.out.println("Luas = "+luas);
         }
     }
     
-    public class PersegiPanjang extends BangunDatar{
+    class PersegiPanjang extends BangunDatar{
         double lebar;
 
         public void setLebar(double lebar) {
@@ -33,4 +31,3 @@ public class BangunDatar {
             System.out.println("Luas = "+luas);
         }
     }
-}

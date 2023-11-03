@@ -1,8 +1,8 @@
 package Nomor4;
 
 public class PersegiPanjang {
-    static int panjang;
-    static int lebar;
+    static int panjang = 6;
+    static int lebar = 8;
 
     public static void setPanjang(int panjang) {
         PersegiPanjang.panjang = panjang;

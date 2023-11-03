@@ -7,12 +7,11 @@ public class Main {
         Kotak kotak1 = new Kotak("Merah",10,15);
         Kotak kotak2 = new Kotak("Merah",10,15);
         Kotak kotak3 = new Kotak("Merah",10,15);
-        ArrayList<Kotak> arrayList = new ArrayList<>();
-        arrayList.add(kotak1);
-        arrayList.add(kotak2);
-        arrayList.add(kotak3);
+        Kotak kotak4 = new Kotak("Merah",10,15);
+        Kotak.arrayList.add(kotak1);
+        Kotak.arrayList.get(0).setPanjang(8);
+        System.out.println(Kotak.arrayList.get(0).getWarna());
+        System.out.println(Kotak.arrayList);
         
-        arrayList.get(1).setPanjang(20);
-        System.out.println(arrayList);
     }
 }

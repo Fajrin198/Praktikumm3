@@ -7,11 +7,11 @@ public class Burung {
     double berat_badan = 2.5;
     int usia = 6;
     
-    void berkicau(){
+    public void berkicau(){
         System.out.println("Burung itu berkicau");
     }
     
-    void tampilkanDataBurung(){
+    public void tampilkanDataBurung(){
         System.out.println("Jenis = "+jenis);
         System.out.println("Warna Bulu = "+warna_bulu);
         System.out.println("Berat_badan = "+berat_badan+"kg");

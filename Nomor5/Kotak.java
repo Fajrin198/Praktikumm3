@@ -4,11 +4,10 @@
  */
 package Nomor5;
 
-/**
- *
- * @author MY ASUS
- */
+import java.util.ArrayList;
+
 public class Kotak {
+    static ArrayList<Kotak> arrayList = new ArrayList<>();
     String warna;
     int panjang;
     int lebar;

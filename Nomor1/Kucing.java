@@ -14,11 +14,11 @@ public class Kucing {
     double berat_badan = 16.3;
     int usia = 4;
     
-    void lari(){
+    public void lari(){
         System.out.println("Kucing itu berlari");
     }
     
-    void tampilkanDataKucing(){
+    public void tampilkanDataKucing(){
         System.out.println("Jenis Ras = "+jenis_ras);
         System.out.println("Warna Bulu = "+warna_bulu);
         System.out.println("Berat_badan = "+berat_badan+"kg");

@@ -14,11 +14,11 @@ public class Monyet {
     double berat_badan = 25.3;
     int usia = 6;
     
-    void memanjat(){
+    public void memanjat(){
         System.out.println("Monyet itu Memanjat");
     }
     
-    void tampilkanDataMonyet(){
+    public void tampilkanDataMonyet(){
         System.out.println("Warna Bulu = "+warna_bulu);
         System.out.println("Berat_badan = "+tinggi+"cm");
         System.out.println("Berat_badan = "+berat_badan+"kg");

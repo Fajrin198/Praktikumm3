@@ -9,16 +9,17 @@ package Nomor7;
  * @author MY ASUS
  */
 public class BangunDatar {
-    private double panjangSisi;
+    public double panjangSisi;
 
     public void setPanjangSisi(double panjangSisi) {
         this.panjangSisi = panjangSisi;
-    }
+    }   
     
-    public class Persegi extends BangunDatar{
+}
+
+class Persegi extends BangunDatar{
         public void hitungLuas(){
             double luas = panjangSisi*panjangSisi;
             System.out.println("Luas = "+luas);
         }
     }
-}

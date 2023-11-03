@@ -4,10 +4,6 @@
  */
 package Nomor8;
 
-/**
- *
- * @author MY ASUS
- */
 public class Sekolah {
     String namaSekolah;
     int peringkat;
@@ -17,8 +13,6 @@ public class Sekolah {
     public String toString() {
         return "Sekolah{" + "namaSekolah=" + namaSekolah + ", peringkat=" + peringkat + ", Akreditasi=" + Akreditasi + '}';
     }
-    
-    
     
     public class Guru extends Sekolah{
         

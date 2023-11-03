@@ -9,14 +9,12 @@ package Nomor8;
  * @author MY ASUS
  */
 public class Makanan {
-    int kalori;
-    
-    public class NasiGoreng extends Makanan{
+    int kalori;      
+}
+
+class NasiGoreng extends Makanan{
         
-    }
-    public class IkanGoreng extends Makanan{
+}
+class IkanGoreng extends Makanan{
         
-    }
-    
-    
 }

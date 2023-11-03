@@ -12,7 +12,7 @@ public class ImageProcessing {
         String pathImage = "src/Nomor11/Guci_Gyokko.jpg";
         int[][][] dataImage = ip.imread(pathImage);
         int[][] dataGray = ip.imgToGray(dataImage);
-
+        
         for (int i = 0; i < dataGray.length; i++) {
             System.out.println(Arrays.toString(dataGray[i]));
         }

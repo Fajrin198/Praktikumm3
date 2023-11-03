@@ -14,7 +14,7 @@ public class Harimau {
     double berat_badan = 180.5;
     int usia = 9;
     
-    void Menerkam(){
+    public void Menerkam(){
         System.out.println("Harimau itu menerkam menggunakan taring dan kukunya");
     }
 }

@@ -14,11 +14,11 @@ public class Panda {
     double berat_badan = 60.4;
     int usia = 12;
     
-    void Berenang(){
+    public void Berenang(){
         System.out.println("Panda itu berenang");
     }
     
-    void tampilkanDataPanda(){
+    public void tampilkanDataPanda(){
         System.out.println("Warna Bulu = "+warna_bulu);
         System.out.println("Berat_badan = "+berat_badan+"kg");
         System.out.println("Jenis Kelamin = "+jenis_kelamin);

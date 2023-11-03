@@ -1,11 +1,12 @@
 package Nomor8;
 
 public class Bunga {
-    
-    public class Mawar extends Bunga{
+    double panjangBatang;
+}
+
+class Mawar extends Bunga{
         
     }
-    public class Anggrek extends Bunga{
+class Anggrek extends Bunga{
         
-    }
 }

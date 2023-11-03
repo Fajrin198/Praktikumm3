@@ -13,11 +13,11 @@ public class Bebek {
     double berat_badan = 7.3;
     int usia = 2;
     
-    void Berenang(){
+    public void Berenang(){
         System.out.println("Bebek itu berenang");
     }
     
-    void tampilkanDataBebek(){
+    public void tampilkanDataBebek(){
         System.out.println("Warna Bulu = "+warna_bulu);
         System.out.println("Berat_badan = "+berat_badan+"kg");
         System.out.println("Usia = "+usia+" tahun");

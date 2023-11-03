@@ -13,15 +13,15 @@ public class Mobil {
     double kapasitasBahanBakar = 50;
     double kecepatan;
     
-    void speedUp(double increment){
+    public void speedUp(double increment){
         kecepatan += increment;
     }
     
-    void applyBrakes(double decrement){
+    public void applyBrakes(double decrement){
         kecepatan -= decrement;
     }
     
-    void printStates(){
+    public void printStates(){
         System.out.println("Warna = "+warna);
         System.out.println("Kapasitas bahan bakar = "+kapasitasBahanBakar+" Liter");
         System.out.println("Kecepatan = "+kecepatan);

@@ -8,15 +8,18 @@ package Nomor9;
  *
  * @author MY ASUS
  */
-public class BangunDatar {
-    
+public class BangunDatar{
+    int panjang_sisi;
 
-    public class Persegi{
-        int panjang_sisi;
+    public void printState(){
+        System.out.println("Panjang Sisi = "+panjang_sisi);
+    }
+    
+    public class Persegi extends BangunDatar{
 
         public Persegi() {
         }
-
+        
         public Persegi(int panjang_sisi) {
             this.panjang_sisi = panjang_sisi;
         }
@@ -33,7 +36,7 @@ public class BangunDatar {
             int luas = panjang_sisi * panjang_sisi;
             System.out.println("Luas Persegi = " + luas);
         }
-        
+
         // Overloading
         public void hitungLuas(int panjang_sisi) {
             int luas = panjang_sisi * panjang_sisi;
@@ -45,9 +48,8 @@ public class BangunDatar {
             System.out.println("Keliling Persegi = " + keliling);
         }
 
-        @Override
-        public String toString() {
-            return "Persegi{" + "panjang_sisi=" + panjang_sisi + '}';
+        public void printState(){
+            
         }
 
         
@@ -101,12 +103,10 @@ public class BangunDatar {
             int luas = panjang * lebar;
             System.out.println("Luas Persegi Panjang = " + luas);
         }
-        
-        @Override
-        public String toString() {
-            return "PersegiPanjang{" + "panjang=" + panjang + ", lebar=" + lebar + '}';
-        }
 
+        public void printState(){
+            System.out.println("Lebar = "+lebar);
+        }
         
     }
 }

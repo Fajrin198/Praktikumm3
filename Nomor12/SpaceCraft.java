@@ -5,8 +5,8 @@
 package Nomor12;
 
 public class SpaceCraft {
-    private int xPos;
-    private int yPos;
+    private int xPos = 0;
+    private int yPos = 0;
 
     public void up(){
         yPos -= 1;
@@ -21,4 +21,10 @@ public class SpaceCraft {
         xPos += 1;
     }
 
+    @Override
+    public String toString() {
+        return "Kordinat{" +xPos + "," + yPos + '}';
+    }
+    
+    
 }
